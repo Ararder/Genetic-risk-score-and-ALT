@@ -14,7 +14,7 @@ We wanted to investigate if the association between genetic factors was stronger
 
 To see if the association between genetic factors was stronger for any of the core triad symtoms, we used data from the A-TAC questionnaire [2](https://www-cambridge-org.proxy.kib.ki.se/core/journals/the-british-journal-of-psychiatry/article/psychiatric-telephone-interview-with-parents-for-screening-of-childhood-autism-tics-attentiondeficit-hyperactivity-disorder-and-other-comorbidities-atac/BA1E4F42D934E2D20D0B580F50B5BEDEO). 
 
-We then fit a linear model, with the outcome variable being the score on the three subscales measuring each of the core triad traits, and total score. Furthermore, for each of scale scores, we tested the association with eight different genetic risk scores, generated at different significance thresholds. We controlled for age, sex, and the first ten principal components. Since the data is on twins, we used robust clustereted standard errors to account for the twin pairs.
+We then fit a linear model, with the outcome variable being the score on the three subscales measuring each of the core triad traits, and total score. Furthermore, for each of scale scores, we tested the association with eight different genetic risk scores, generated at different significance thresholds. We controlled for age, sex, and the first ten principal components. Since the data is on twins, we used robust clustered standard errors to account for the twin pairs.
 
 ```R
 
