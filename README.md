@@ -61,8 +61,7 @@ The effect sizes in the plot are standardized by the scale standard deviation. F
 
 
 
-
-## Discussion
+## Conclusion
 
 The results could indicate that common variants play a comparatively large role in the genesis of symptoms related to flexibility issues.
 
