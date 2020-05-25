@@ -4,5 +4,6 @@ This repository contains the code and analysis pipeline for a project entitled  
 
 
 ## Autistic like traits
-[image](/graphs/Rplot.png)
+![](/graphs/Rplot.png)
+
 
