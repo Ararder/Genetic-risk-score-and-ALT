@@ -5,7 +5,7 @@ This repository contains the code and analysis pipeline for a project entitled  
 
 ## Autistic like traits
 
-One meta-analysis estimate the heritability of ASD to be between 73-91%. [1](https://onlinelibrary-wiley-com.proxy.kib.ki.se/doi/full/10.1111/jcpp.12499), which indicate that genetic effects have relatively large role to play in the etiology of ASD. ASD is often conceptualized as a trio of three core symptoms; 1issues with social reciprocity, repetitive and stereotypical behaviour or interests, and impairments in verbal and nonverbal communication.
+One meta-analysis estimate the heritability of ASD to be between 73-91%. [1](https://onlinelibrary-wiley-com.proxy.kib.ki.se/doi/full/10.1111/jcpp.12499), which indicate that genetic effects have a relatively large role to play in the etiology of ASD. ASD is often conceptualized as a trio of three core symptoms; 1issues with social reciprocity, repetitive and stereotypical behaviour or interests, and impairments in verbal and nonverbal communication.
 
 We wanted to investigate if the association between genetic factors was stronger for one of these symptom triads. To do this, we calculated a genetic risk score, a measure of the total genetic liability for all the individuals in a sample of twins from the Swedish Twin Registry.
 
