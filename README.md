@@ -7,7 +7,7 @@ This repository contains the code and analysis pipeline for a project entitled  
 
 One meta-analysis estimate the heritability of ASD to be between 73-91%. [1](https://onlinelibrary-wiley-com.proxy.kib.ki.se/doi/full/10.1111/jcpp.12499), which indicate that genetic effects have a relatively large role to play in the etiology of ASD. ASD is often conceptualized as a trio of three core symptoms; 1issues with social reciprocity, repetitive and stereotypical behaviour or interests, and impairments in verbal and nonverbal communication.
 
-We wanted to investigate if the association between genetic factors was stronger for one of these symptom triads. To do this, we calculated a genetic risk score, a measure of the total genetic liability for all the individuals in a sample of twins from the Swedish Twin Registry.
+We wanted to investigate if the association between genetic factors was stronger for one of these symptom triads. To do this, we calculated a genetic risk score, a measure of the total genetic liability for all the individuals in a sample of twins from CATSS, which is a part of the [Swedish Twin Registry](https://ki.se/en/research/swedish-twin-registry-for-researchers).
 
 
 ## Showcase of pipeline.
@@ -40,29 +40,29 @@ for (i in 1:32) {
   
   output <- bind_cols(r2, coefs)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 ## Results
+The association between the genetic risk score as significant for the flexibility trait, and the total score. For language issues and social issues, the association was not significant.
+
+![](/graphs/pvalues_plot.png)
 
 
 
 
 
+The effect sizes in the plot are standardized by the scale standard deviation. For social and language issues, the confidence interval crosses 0. The effect size is largest for the flexibility trait.
 
 ![](/graphs/Rplot.png)
 
+
+
+
+
+
+
+## Discussion
+
+The results could indicate that common variants play a comparatively large role in the genesis of symptoms related to flexibility issues.
 
